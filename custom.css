@@ -1,0 +1,439 @@
+/*--------------------------------------------------------------
+# Color
+--------------------------------------------------------------*/
+.red {
+    color: #db2d2e;
+}
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html{
+    sroll-behavior: smooth;
+}
+.hero-btn {
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: #db332f;
+    border-color: #db332f;
+    transform: skew(-10deg) rotate(0deg);
+    -webkit-transform: skew(-10deg) rotate(0deg);
+    -moz-transform: skew(-10deg) rotate(0deg);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.thick {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/*fonts Poppins*/
+
+.site-branding {
+    display: flex;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+.top-header-info{
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.main-navigation a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+.hero-section {
+    background-image: url("assets/images/hero-background.png");
+    color: #fff;
+    border-radius: 0 0 0 87px;
+    height: 550px;
+}
+
+.hero-content-container{
+    margin-top: 110px;
+}
+
+.hero-content{
+    text-transform: uppercase;
+}
+
+.hero-text p {
+    margin-bottom: 0;
+}
+
+.hero-img img {
+    position: absolute;
+    top: 23px;
+    left: 150px;
+}
+
+.caption-red{
+    font-size: 35px;
+    font-weight: 800;
+    color: #db2d2e;
+}
+
+.caption-main{
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.caption-light{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+/*--------------------------------------------------------------
+# Client Section
+--------------------------------------------------------------*/
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.section-subtitle{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.client-section {
+    color: #000;
+    padding: 90px 0 0 0;
+    margin: 90px 0;
+}
+
+.client-section .section-wrapper{
+    display: flex;
+}
+
+.client-section .section-logos img {
+    padding: 0 30px;
+    max-width: 160px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+
+
+.services-section{
+    /*background: #000000e0;*/
+    background-image: url("assets/images/services-background.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-border-radius: 0 87px 0 0;
+    -moz-border-radius: 0 87px 0 0;
+    border-radius: 0 87px 0 0;
+    padding: 50px 0;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.86);
+}
+
+.service-logo {
+    text-align: center;
+}
+
+.service-title {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.separator {
+    border: 1px solid;
+    width: 70px;
+    margin: auto;
+}
+
+.service-description {
+    margin: 10px 0;
+}
+
+.service-cars {
+    display: flex;
+    margin-top: 210px;
+}
+
+.service-cars img:nth-child(1){
+    position: absolute;
+    top: 1420px;
+    left: 0;
+}
+
+.service-cars img:nth-child(2){
+    position: absolute;
+    top: 1420px;
+    right: 0;
+}
+
+/*--------------------------------------------------------------
+# Cars Section
+--------------------------------------------------------------*/
+
+.car-section {
+    margin-top: 100px;
+    color: #000000;
+    background: #d0564b;
+}
+
+.car-section-wrapper {
+    background: #fff;
+    border-radius: 0 0 0 10%;
+    padding-bottom: 100px;
+}
+
+.car-card {
+    text-align: center;
+    box-shadow: 0 0 0 0 rgba(122, 131, 138, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.car-card div {
+    margin-bottom: 20px;
+}
+
+.car-details {
+    text-transform: uppercase;
+}
+
+.car-make {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# About Us Section
+--------------------------------------------------------------*/
+.section-about-us{
+    background-image: url("assets/images/background-about-us.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-border-radius: 0 87px 0 0;
+    -moz-border-radius: 0 87px 0 0;
+    border-radius: 0 87px 0 0;
+    padding: 50px 0;
+    box-shadow: inset 0 0 0 1000px rgba(244, 67, 54, 0.65);
+    position: relative;
+}
+
+.about-us_content_wrapper {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-us_content_wrapper .btn-play img {
+    max-width: 67px;
+    margin: 50px 0;
+}
+
+.contact-info {
+    background: #fff;
+    max-width: 640px;
+    height: 350px;
+    margin: auto;
+    position: relative;
+}
+
+.contact-info_title {
+    font-size: 50px;
+    color: #000;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.contact-info_image {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: -50px;
+}
+
+/*--------------------------------------------------------------
+# Section Testimonials
+--------------------------------------------------------------*/
+
+.section-testimonials {
+    background: #2e2e2e;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial_caption {
+    font-weight: 500;
+}
+
+.testimonial_caption, .testimonial_header{
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.testimonial_author-image img {
+    border-radius: 50%;
+    border: 1px solid #db2d2e;
+    padding: 5px;
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+.testimonial_header {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.testimonial_text {
+    font-weight: 200;
+    margin: 20px;
+}
+
+.overlap-cars img {
+    max-width: 261px;
+    position: absolute;
+}
+
+.overlap-cars img:nth-child(1){
+    left: 0;
+}
+
+.overlap-cars img:nth-child(2){
+    right: 0;
+}
+
+/*--------------------------------------------------------------
+# Section Map
+--------------------------------------------------------------*/
+
+.section-map {
+    position: relative;
+}
+
+.subscription-card {
+    background: #db2d2edb;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    bottom: -70px;
+    align-items: center;
+    
+}
+
+.subscription-card .subscription-form {
+    display: flex;
+}
+
+.subscription-text {
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 357px;
+}
+
+.subscription-form input, .subscription-form button {
+    max-height: 65px;
+}
+
+.subscription-form button{
+    text-transform: uppercase;
+    background: #151414;
+    color: #ffffff;
+    border: none;
+}
+
+.subscription-form input{
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+    background-image: url("assets/images/footer-background.png");
+    box-shadow:     inset 0 0 0 1000px rgb(0 0 0 / 94%);
+    padding: 150px 0 0;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+footer .menu {
+    margin: 0;
+    padding: 0;
+}
+
+footer .menu li a {
+    color: #ffffff;
+}
+
+footer .menu li {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.footer-contact ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contact ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.sub-footer {
+    -webkit-box-shadow: inset 0px 0px 1000px rgb(0 0 0 / 0.94);
+    -moz-box-shadow: inset 0px 0px 1000px rgb(0 0 0 / 0.94);
+    box-shadow: inset 0px 0px 1000px rgb(0 0 0 / 0.94);
+}
+
+.sub-footer .widget {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.sub-footer .textwidget {
+    display: flex;
+    justify-content: space-between;
+}
+
+
