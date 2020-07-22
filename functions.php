@@ -106,6 +106,8 @@ if ( ! function_exists( 'supercar_experiences_setup' ) ) :
 				'flex-height' => true,
 			)
 		);
+
+		add_theme_support('woocommerce');
 	}
 endif;
 add_action( 'after_setup_theme', 'supercar_experiences_setup' );

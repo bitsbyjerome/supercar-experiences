@@ -54,3 +54,18 @@
                 ?>
             </nav><!-- #site-navigation -->
         </header><!-- #masthead -->
+        <div class="hero-content-container">
+
+            <div class="hero-content_image">
+                <img src="<?= get_template_directory_uri().'/assets/images/service-mercedes.png'; ?>">
+            </div>
+
+            <div class="hero-content_image">
+                <img src="<?= get_template_directory_uri().'/assets/images/hero-lambo.png'; ?>">
+            </div>
+
+            <div class="hero-content_image">
+                <img src="<?= get_template_directory_uri().'/assets/images/hero-nissan.png'; ?>">
+            </div>
+
+        </div>

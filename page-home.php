@@ -157,89 +157,97 @@ get_header('home');
                         <div class="section-subtitle">
                             Supercar driving experience
                         </div>
+                        <?php
+                        while ( have_posts() ) :
+                            the_post();
 
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div><div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div><div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="car-card">
-                                    <div class="car-image">
-                                        <img src="<?= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?>">
-                                    </div>
-                                    <div class="car-make"> Lamborghini Huracan</div>
-                                    <div class="car-details red">View details</div>
-                                </div>
-                            </div>
+                            get_template_part( 'template-parts/content', 'page' );
 
-                        </div>
+                        endwhile; // End of the loop.
+                        ?>
+
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div><div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div><div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <div class="car-card">-->
+<!--                                    <div class="car-image">-->
+<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
+<!--                                    </div>-->
+<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
+<!--                                    <div class="car-details red">View details</div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
 
                     </div>
 
