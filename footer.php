@@ -10,8 +10,29 @@
  */
 
 ?>
+    <div class="overlap-cars">
+        <img src="<?= get_template_directory_uri().'/assets/images/testimonial_urus.png'; ?>">
+        <img src="<?= get_template_directory_uri().'/assets/images/testimonial_mercedes.png'; ?>">
+    </div>
+
+    <div class="section-map">
+        <img src="<?= get_template_directory_uri().'/assets/images/map.png'; ?>">
+        <div class="container">
+            <div class="subscription-card">
+                <div class="subscription-text">
+                    Subscribe today to receive updates on our latest discounts and special offers!
+                </div>
+                <div class="subscription-form">
+                    <input type="email" placeholder="Enter your email...">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 	<footer id="colophon" class="site-footer">
+
 		<div class="site-info container">
            <div class="row">
                <div class="col-lg-3">

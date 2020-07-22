@@ -6,8 +6,11 @@
 
 ?>
 
+
+
 <?php
-get_header();
+
+get_header('home');
 ?>
     <main id="primary" class="site-main">
 
@@ -279,29 +282,11 @@ get_header();
                     <img src="<?= get_template_directory_uri().'/assets/images/testimonial_author.png'; ?>">
                 </div>
                 <div class="testimonial_author-name">Ailsa</div>
-                <div class="overlap-cars">
-                    <img src="<?= get_template_directory_uri().'/assets/images/testimonial_urus.png'; ?>">
-                    <img src="<?= get_template_directory_uri().'/assets/images/testimonial_mercedes.png'; ?>">
-                </div>
             </div>
 
         </div>
         
-        <div class="section-map">
-            <img src="<?= get_template_directory_uri().'/assets/images/map.png'; ?>">
-            <div class="container">
-                <div class="subscription-card">
-                    <div class="subscription-text">
-                        Subscribe today to receive updates on our latest discounts and special offers!
-                    </div>
-                    <div class="subscription-form">
-                        <input type="email" placeholder="Enter your email...">
-                        <button>Subscribe</button>
-                    </div>
-                </div>
 
-            </div>
-        </div>
 
 
     </main><!-- #main -->
