@@ -68,7 +68,7 @@ get_header('home');
 
                     <div class="section-wrapper">
                         <div class="row">
-                            <div class="section-title col-6">
+                            <div class="section-title col-lg-6 col-sm-12">
                                 Making your <br> dream a reality
                             </div>
 
@@ -96,22 +96,22 @@ get_header('home');
 
                                 <div class="col-lg-3">
                                     <div class="service-logo">
-                                        <img src="<?= get_template_directory_uri().'/assets/logos/service-car.png'; ?>">
+                                        <img src="<?= get_template_directory_uri().'/assets/logos/track-days.png'; ?>">
                                         <div class="service-title">Track Days</div>
                                         <div class="separator"></div>
                                         <div class="service-description">
-                                            If you are looking for a luxury or exotic car for rental, then Supercar Experiences can be the ideal destination
+                                            Track Days are the most exhilarating and heart pumping experience we offer. Our customers...
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="service-logo">
-                                        <img src="<?= get_template_directory_uri().'/assets/logos/service-car.png'; ?>">
+                                        <img src="<?= get_template_directory_uri().'/assets/logos/driving-tours.png'; ?>">
                                         <div class="service-title">Driving Tours</div>
                                         <div class="separator"></div>
                                         <div class="service-description">
-                                            If you are looking for a luxury or exotic car for rental, then Supercar Experiences can be the ideal destination
+                                            Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length
                                         </div>
                                     </div>
 
@@ -119,11 +119,11 @@ get_header('home');
 
                                 <div class="col-lg-3">
                                     <div class="service-logo">
-                                        <img src="<?= get_template_directory_uri().'/assets/logos/service-car.png'; ?>">
+                                        <img src="<?= get_template_directory_uri().'/assets/logos/test-drives.png'; ?>">
                                         <div class="service-title">Test Drives</div>
                                         <div class="separator"></div>
                                         <div class="service-description">
-                                            If you are looking for a luxury or exotic car for rental, then Supercar Experiences can be the ideal destination
+                                            Test Drives are ​ $159.00 for 20min or ​ $179.00 for 30min ​regardless of vehicle. “people’s dream cars differ from one another”.
                                         </div>
                                     </div>
 
@@ -166,89 +166,6 @@ get_header('home');
                         endwhile; // End of the loop.
                         ?>
 
-<!--                        <div class="row">-->
-<!--                            <div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div><div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div><div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-lg-4">-->
-<!--                                <div class="car-card">-->
-<!--                                    <div class="car-image">-->
-<!--                                        <img src="--><?//= get_template_directory_uri().'/assets/images/lamborghini-huracan.png'; ?><!--">-->
-<!--                                    </div>-->
-<!--                                    <div class="car-make"> Lamborghini Huracan</div>-->
-<!--                                    <div class="car-details red">View details</div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-
                     </div>
 
                 </div>
@@ -260,6 +177,7 @@ get_header('home');
                 <div><span class="thick">Want to know</span> <span class="bold">more about us?</span> </div>
                 <div><span class="bold">Play our video</span> <span class="thick">Now!</span></div>
                 <div class="btn-play"> <img src="<?= get_template_directory_uri().'/assets/logos/btn-play.png'; ?>"> </div>
+                <div id="player"></div>
                 <div class="contact-info">
                     <div class="contact-info_title">Have any questions</div>
                     <div class="contact-info_number red"> 416-900-1102</div>

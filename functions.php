@@ -158,8 +158,9 @@ function supercar_experiences_scripts() {
 
 	wp_enqueue_script('template-script','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js');
 	wp_enqueue_script( 'supercar-experiences-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'supercar-experiences-custom-script', get_template_directory_uri() . '/js/custom.js', array(), _S_VERSION, true );
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+    if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }

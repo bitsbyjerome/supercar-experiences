@@ -27,6 +27,10 @@ html{
     border-radius: 0;
 }
 
+.btn-play img {
+    cursor: pointer;
+}
+
 .thick {
     font-weight: 100;
 }
@@ -53,8 +57,24 @@ main .container {
 
 .top-header-info{
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
     margin-left: auto;
+}
+
+.top-header-info li:nth-child(1){
+    font-weight: 700;
+}
+
+.menu-toggle {
+    background: transparent;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu-toggle:focus {
+    outline: none;
 }
 
 header ul li {
@@ -80,7 +100,7 @@ header ul li {
 --------------------------------------------------------------*/
 
 .hero-section {
-    background-image: url("assets/images/hero-background.png");
+    background: url("assets/images/hero-background.png") no-repeat center center fixed;
     color: #fff;
     border-radius: 0 0 0 87px;
     height: 550px;
@@ -196,7 +216,7 @@ header ul li {
 
 .services-section{
     /*background: #000000e0;*/
-    background-image: url("assets/images/services-background.png");
+    background: url("assets/images/services-background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
     -webkit-border-radius: 0 87px 0 0;
@@ -204,6 +224,10 @@ header ul li {
     border-radius: 0 87px 0 0;
     padding: 50px 0;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.86);
+}
+
+.services-section .service-container {
+    margin: 70px 0;
 }
 
 .service-logo {
@@ -228,18 +252,16 @@ header ul li {
 
 .service-cars {
     display: flex;
-    margin-top: 210px;
+    margin-top: 130px;
 }
 
 .service-cars img:nth-child(1){
     position: absolute;
-    top: 1420px;
     left: 0;
 }
 
 .service-cars img:nth-child(2){
     position: absolute;
-    top: 1420px;
     right: 0;
 }
 
@@ -250,13 +272,13 @@ header ul li {
 .car-section {
     margin-top: 100px;
     color: #000000;
-    background: #d0564b;
+    background: #d65d58;
 }
 
 .car-section-wrapper {
     background: #fff;
     border-radius: 0 0 0 10%;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .car-card {
@@ -283,7 +305,7 @@ header ul li {
 # About Us Section
 --------------------------------------------------------------*/
 .section-about-us{
-    background-image: url("assets/images/background-about-us.png");
+    background: url("assets/images/background-about-us.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
     -webkit-border-radius: 0 87px 0 0;
@@ -403,8 +425,13 @@ header ul li {
     position: relative;
 }
 
+.subscription-wrapper {
+    position: relative;
+}
+
 .subscription-card {
     background: #db2d2edb;
+    width: 100%;
     padding: 50px;
     margin: auto;
     display: flex;
@@ -603,6 +630,10 @@ footer .menu li {
 }
 
 .experience_element a {
+    color: #000;
+}
+
+.experience_element span {
     text-transform: uppercase;
     color: #db2d2edb;
 }
@@ -759,6 +790,13 @@ main .product {
 
     .top-header-info {
         flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .top-header-info li {
+
+        margin: 10px;
+
     }
 
     .main-navigation {
@@ -782,10 +820,10 @@ main .product {
     }
 
     .client-section .section-wrapper {
-       /*justify-content: center;*/
+       justify-content: center;
     }
     .wc-block-grid.has-4-columns .wc-block-grid__product {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .car-section-wrapper {
@@ -821,6 +859,14 @@ main .product {
 
     .main-navigation.toggled ul li {
         padding: 20px 30px;
+    }
+
+    .subscription-card {
+        left: 0;
+    }
+
+    .car-section-wrapper, .client-section {
+        padding: 0;
     }
 }
 

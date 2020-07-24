@@ -17,7 +17,7 @@
 
     <div class="section-map">
         <img src="<?= get_template_directory_uri().'/assets/images/map.png'; ?>">
-        <div class="container">
+        <div class="container subscription-wrapper">
             <div class="subscription-card">
                 <div class="subscription-text">
                     Subscribe today to receive updates on our latest discounts and special offers!

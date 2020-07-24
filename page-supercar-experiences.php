@@ -102,16 +102,18 @@ get_header('general');
                 <div class="col-lg-3">
 
                     <div class="experience_element">
-                        <div class="experience_logo">
-                            <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
-                        </div>
-                        <div class="experience_title">
-                            Driving Tours
-                        </div>
-                        <div class="experience_text">
-                            Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
-                        </div>
-                        <a href="/super_car_experience/supercar-experiences/driving-tours">Learn more</a>
+                        <a href="/super_car_experience/supercar-experiences/driving-tours">
+                            <div class="experience_logo">
+                                <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
+                            </div>
+                            <div class="experience_title">
+                                Driving Tours
+                            </div>
+                            <div class="experience_text">
+                                Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
+                            </div>
+                            <span>Learn more </span>
+                        </a>
                     </div>
 
                 </div>
@@ -119,16 +121,18 @@ get_header('general');
                 <div class="col-lg-3">
 
                     <div class="experience_element">
-                        <div class="experience_logo">
-                            <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
-                        </div>
-                        <div class="experience_title">
-                            Track Days
-                        </div>
-                        <div class="experience_text">
-                            Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
-                        </div>
-                        <a href="/super_car_experience/supercar-experiences/track-days">Learn more</a>
+                        <a href="/super_car_experience/supercar-experiences/track-days">
+                            <div class="experience_logo">
+                                <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
+                            </div>
+                            <div class="experience_title">
+                                Track Days
+                            </div>
+                            <div class="experience_text">
+                                Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
+                            </div>
+                            <span> Learn more </span>
+                        </a>
                     </div>
 
                 </div>
@@ -136,16 +140,18 @@ get_header('general');
                 <div class="col-lg-3">
 
                     <div class="experience_element">
-                        <div class="experience_logo">
-                            <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
-                        </div>
-                        <div class="experience_title">
-                            Test Drives
-                        </div>
-                        <div class="experience_text">
-                            Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
-                        </div>
-                        <a href="/super_car_experience/supercar-experiences/test-drives">Learn more</a>
+                        <a href="/super_car_experience/supercar-experiences/test-drives">
+                            <div class="experience_logo">
+                                <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
+                            </div>
+                            <div class="experience_title">
+                                Test Drives
+                            </div>
+                            <div class="experience_text">
+                                Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
+                            </div>
+                            <span>Learn more</span>
+                        </a>
                     </div>
 
                 </div>
@@ -153,16 +159,18 @@ get_header('general');
                 <div class="col-lg-3">
 
                     <div class="experience_element">
-                        <div class="experience_logo">
-                            <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
-                        </div>
-                        <div class="experience_title">
-                            Laps
-                        </div>
-                        <div class="experience_text">
-                            Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
-                        </div>
-                        <a href="/super_car_experience/supercar-experiences/laps">Learn more</a>
+                        <a href="/super_car_experience/supercar-experiences/laps">
+                            <div class="experience_logo">
+                                <img src="<?= get_template_directory_uri().'/assets/images/driving-tours.png'; ?>">
+                            </div>
+                            <div class="experience_title">
+                                Laps
+                            </div>
+                            <div class="experience_text">
+                                Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length of the tour...
+                            </div>
+                            <span>Learn more</span>
+                        </a>
                     </div>
 
                 </div>
