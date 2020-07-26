@@ -14,52 +14,27 @@ get_header('home');
 ?>
     <main id="primary" class="site-main">
 
-        <div class="container">
+            <div class="container">
+                <div class="client-section">
+                    <div class="section-wrapper">
+                        <div class="section-content_wrapper">
+                            <div class="section-title red">
+                                Clients
+                            </div>
 
-
-
-                <div class="hero-content-container">
-
-                    <div class="hero-content row">
-                        <div class="hero-text col-lg-6">
-                            <p class="caption-red">Toronto's top exotic</p>
-                            <p class="caption-main">car rental company</p>
-                            <p class="caption-light">super car experiences</p>
-
-                            <button class="btn hero-btn btn-primary">
-                                Read more
-                            </button>
-
+                            <div class="section-subtitle">
+                                Supercar driving experience
+                            </div>
                         </div>
-                        <div class="hero-img col-lg-6">
-                            <img src="<?= get_template_directory_uri().'/assets/images/hero.png'; ?>">
+                        <div class="section-logos">
+                            <img src="<?= get_template_directory_uri().'/assets/logos/lamborghini-logo-black-and-white.png'; ?>">
+                            <img src="<?= get_template_directory_uri().'/assets/logos/mercedes-logo-black-and-white.png'; ?>">
+                            <img src="<?= get_template_directory_uri().'/assets/logos/porsche-logo-black-and-white.png'; ?>">
+                            <img src="<?= get_template_directory_uri().'/assets/logos/audi-black-and-white.png'; ?>">
+                            <img src="<?= get_template_directory_uri().'/assets/logos/nissan-black-and-white.png'; ?>">
                         </div>
-
-
-                    </div>
-
-        </div>
-
-            <div class="client-section">
-                <div class="section-wrapper">
-                    <div class="section-content_wrapper">
-                        <div class="section-title red">
-                            Clients
-                        </div>
-
-                        <div class="section-subtitle">
-                            Supercar driving experience
-                        </div>
-                    </div>
-                    <div class="section-logos">
-                        <img src="<?= get_template_directory_uri().'/assets/logos/lamborghini-logo-black-and-white.png'; ?>">
-                        <img src="<?= get_template_directory_uri().'/assets/logos/mercedes-logo-black-and-white.png'; ?>">
-                        <img src="<?= get_template_directory_uri().'/assets/logos/porsche-logo-black-and-white.png'; ?>">
-                        <img src="<?= get_template_directory_uri().'/assets/logos/audi-black-and-white.png'; ?>">
-                        <img src="<?= get_template_directory_uri().'/assets/logos/nissan-black-and-white.png'; ?>">
                     </div>
                 </div>
-            </div>
 
             </div>
 

@@ -16,15 +16,17 @@
     </div>
 
     <div class="section-map">
-        <img src="<?= get_template_directory_uri().'/assets/images/map.png'; ?>">
-        <div class="container subscription-wrapper">
-            <div class="subscription-card">
-                <div class="subscription-text">
-                    Subscribe today to receive updates on our latest discounts and special offers!
-                </div>
-                <div class="subscription-form">
-                    <input type="email" placeholder="Enter your email...">
-                    <button>Subscribe</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5791.246893524564!2d-79.674528!3d43.468458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5cc846cb6d05%3A0x4d930f8952a0c884!2s1058%20South%20Service%20Rd%20E%2C%20Oakville%2C%20ON%20L6J%202X3%2C%20Canada!5e0!3m2!1sen!2sin!4v1595718068086!5m2!1sen!2sin" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="container">
+            <div class="subscription-wrapper">
+                <div class="subscription-card">
+                    <div class="subscription-text">
+                        Subscribe today to receive updates on our latest discounts and special offers!
+                    </div>
+                    <div class="subscription-form">
+                        <input type="email" placeholder="Enter your email...">
+                        <button>Subscribe</button>
+                    </div>
                 </div>
             </div>
 

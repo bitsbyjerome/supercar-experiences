@@ -44,8 +44,8 @@
                     <p class="site-description"><?php echo $supercar_experiences_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
                 <?php endif; ?>
                 <ul class="top-header-info">
-                    <li> <i><img src="<?= get_template_directory_uri().'/assets/logos/call.png';?>"> </i> 416-900-1102</li>
-                    <li> <i><img src="<?= get_template_directory_uri().'/assets/logos/email.png';?>"> </i> info@supercarexperiences.ca</li>
+                    <li> <img src="<?= get_template_directory_uri().'/assets/logos/call.png';?>"> 416-900-1102</li>
+                    <li> <img src="<?= get_template_directory_uri().'/assets/logos/email.png';?>"> info@supercarexperiences.ca</li>
                 </ul>
             </div><!-- .site-branding -->
 
@@ -63,3 +63,31 @@
                 ?>
             </nav><!-- #site-navigation -->
         </header><!-- #masthead -->
+
+        <div class="container">
+
+
+
+            <div class="hero-content-container">
+
+                <div class="hero-content row">
+                    <div class="hero-text col-lg-6">
+                        <p class="caption-red">Toronto's top exotic</p>
+                        <p class="caption-main">car rental company</p>
+                        <p class="caption-light">super car experiences</p>
+
+                        <button class="btn hero-btn btn-primary">
+                            Read more
+                        </button>
+
+                    </div>
+                    <div class="hero-img col-lg-6">
+                        <img src="<?= get_template_directory_uri().'/assets/images/hero.png'; ?>">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>

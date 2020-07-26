@@ -55,10 +55,16 @@ main .container {
     padding-top: 10px;
 }
 
+.site-branding a {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
 .top-header-info{
     display: flex;
     justify-content: center;
     margin-left: auto;
+    flex-flow: wrap;
 }
 
 .top-header-info li:nth-child(1){
@@ -103,11 +109,11 @@ header ul li {
     background: url("assets/images/hero-background.png") no-repeat center center fixed;
     color: #fff;
     border-radius: 0 0 0 87px;
-    height: 550px;
 }
 
 .hero-content-container{
-    margin-top: 110px;
+
+    padding: 110px 0;
 }
 
 .hero-content{
@@ -153,10 +159,10 @@ header ul li {
     margin-bottom: 0;
 }
 
-.hero-img img {
+.hero-img {
     position: absolute;
-    top: 23px;
-    left: 150px;
+    right: 0;
+    padding: 0;
 }
 
 .caption-red{
@@ -215,7 +221,7 @@ header ul li {
 
 
 .services-section{
-    /*background: #000000e0;*/
+    color: #ffffff;
     background: url("assets/images/services-background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -314,6 +320,7 @@ header ul li {
     padding: 50px 0;
     box-shadow: inset 0 0 0 1000px rgba(244, 67, 54, 0.65);
     position: relative;
+    color: #ffffff;
 }
 
 .about-us_content_wrapper {
@@ -362,6 +369,7 @@ header ul li {
 --------------------------------------------------------------*/
 
 .section-testimonials {
+    color: #ffffff;
     background: #2e2e2e;
     text-align: center;
     padding: 350px 50px 50px;
@@ -425,8 +433,14 @@ header ul li {
     position: relative;
 }
 
+iframe {
+    width: 100%;
+}
+
 .subscription-wrapper {
-    position: relative;
+    position: absolute;
+    color: #ffffff;
+    transform: translate(0%, -45%);
 }
 
 .subscription-card {
@@ -436,8 +450,8 @@ header ul li {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    bottom: -70px;
+    /*position: absolute;*/
+    /*bottom: -70px;*/
     align-items: center;
     z-index: 1;
     
@@ -480,6 +494,7 @@ footer {
     background-image: url("assets/images/footer-background.png");
     box-shadow:     inset 0 0 0 1000px rgb(0 0 0 / 94%);
     padding: 150px 0 0;
+    color: #ffffff;
 }
 
 .footer-title {
@@ -548,8 +563,9 @@ footer .menu li {
     background-image: url("assets/images/hero-general.png");
     -webkit-background-size: cover;
     background-size: cover;
+    background-color: #f5f5f5;
     color: #fff;
-    height: 550px;
+    /*height: 550px;*/
 }
 
 
@@ -659,7 +675,16 @@ footer .menu li {
 
 .section-contact-form {
     color: #000;
-    /*background: #f5f5f5;*/
+    background: #f5f5f5;
+}
+
+.section-contact-form ul {
+    margin: 0;
+    padding: 0;
+}
+
+.section-contact-form ul li {
+    margin-bottom: 20px;
 }
 
 .wpcf7 {
@@ -670,12 +695,35 @@ footer .menu li {
 
 .wpcf7 form {
     padding: 45px;
+    background: #ffffff;
+}
+
+.contact-form-wrapper img {
+    position: absolute;
+    right: 20px;
+    transform: translate(0%, -80%);
+}
+
+.contact-form-wrapper form .sbmt-btn{
+    background: #e83732;
+    color: #fff;
+    border: none;
 }
 
 .wpcf7 form input {
     margin: 10px 0;
     padding: 10px;
     width: 100%;
+}
+
+.form-info-element {
+    border: 1px solid;
+    padding: 31px;
+    border-right: none;
+}
+
+.contact-form-info .form-info-element:nth-child(1) {
+    border-left: none;
 }
 
 /*--------------------------------------------------------------
@@ -782,6 +830,7 @@ main .product {
 @media only screen and (max-width: 600px) {
     .site-branding {
         justify-content: center;
+        margin-bottom: 0;
     }
 
     .hero-content-container .hero-img img {
@@ -806,13 +855,15 @@ main .product {
         z-index: 2;
     }
 
-    .hero-content-container {
-        margin-top: 0;
+    .menu-primary-menu-container ul {
+        flex-flow: wrap;
         text-align: center;
     }
 
-    .hero-section {
-        height: 630px;
+    .hero-content-container {
+        margin-top: 0;
+        text-align: center;
+        padding: 0 0 40px;
     }
 
     .service-cars {
@@ -831,7 +882,7 @@ main .product {
     }
 
     .section-testimonials {
-        padding: 350px 0px 0px;
+        padding: 350px 0 0;
 
     }
 
@@ -868,16 +919,44 @@ main .product {
     .car-section-wrapper, .client-section {
         padding: 0;
     }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+
+    .hero-img {
+        position: absolute;
+        padding: 0;
+        top: 62%;
+    }
+    .hero-img img {
+        width: 50%;
+        float: right;
+    }
+
+    .service-cars img{
+        max-width: 45%;
+    }
+
+
+    .hero-content-container {
+        padding: 42px 0;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
