@@ -195,3 +195,10 @@ get_header('home');
 <?php
 //get_sidebar();
 get_footer();
+
+//TODO: fix video width on desktop
+//TODO: fix subscription form
+//TODO: fix menu length responsive
+//TODO: fix checkout page
+//TODO: Add search logo and WC cart icon
+//TODO: Add detail button

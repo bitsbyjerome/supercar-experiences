@@ -58,6 +58,12 @@ main .container {
 .site-branding a {
     margin: auto;
     padding-bottom: 20px;
+    color: #fff;
+}
+
+.site-branding a:hover, .site-branding a:active, .site-branding a:focus  {
+    color: #fff;
+    text-decoration: none;
 }
 
 .top-header-info{
@@ -151,7 +157,7 @@ header ul li {
 }
 
 .hero-content_image:nth-child(1) img, .hero-content_image:nth-child(3) img{
-    max-width: 360px;
+    max-width: 280px;
 }
 
 
@@ -438,7 +444,7 @@ iframe {
 }
 
 .subscription-wrapper {
-    position: absolute;
+    /*position: absolute;*/
     color: #ffffff;
     transform: translate(0%, -45%);
 }
@@ -450,8 +456,8 @@ iframe {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    /*position: absolute;*/
-    /*bottom: -70px;*/
+    position: absolute;
+    bottom: -130px;
     align-items: center;
     z-index: 1;
     
@@ -565,7 +571,12 @@ footer .menu li {
     background-size: cover;
     background-color: #f5f5f5;
     color: #fff;
-    /*height: 550px;*/
+
+}
+
+.page-parent .hero-section-general {
+    background-color: #ffffff;
+
 }
 
 
@@ -717,9 +728,29 @@ footer .menu li {
 }
 
 .form-info-element {
-    border: 1px solid;
+    border: 1px solid #000000;
     padding: 31px;
     border-right: none;
+}
+
+.contact-form-info {
+    background-image: url("assets/images/contact-detail-background.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.contact-form-info .container {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-info .form-info-element {
+    color: #ffffff;
+}
+
+.contact-form-info .form-info-element .info-content .info-title {
+    font-weight: 700;
 }
 
 .contact-form-info .form-info-element:nth-child(1) {
@@ -737,11 +768,33 @@ footer .menu li {
     color: #000;
 }
 
-.track_days_section .sub-hero img {
+/*.track_days_section .sub-hero img {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    right: 0;*/
+/*    transform: translate(-0%, -50%);*/
+/*}*/
+
+.track_days_section .sub-hero {
+    background: #f5f5f5;
+    padding-bottom: 150px;
+}
+
+.track_days_section .sub-hero div:nth-child(2) {
     position: absolute;
-    top: 50%;
     right: 0;
-    transform: translate(-0%, -50%);
+    transform: translate(0%, 10%);
+    padding: 0;
+}
+
+.track_days_section .auto_section:nth-child(1) {
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.track_days_section .auto_section:nth-child(2) {
+    margin-left: 80px;
+    margin-bottom: 50px;
 }
 
 .wc-block-grid__product-title {
@@ -790,8 +843,8 @@ ins {
     box-shadow: 0 0 0 0 rgba(122, 131, 138, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.wc-block-grid.has-4-columns .wc-block-grid__product {
-    max-width: 23%;
+.wc-block-grid__products {
+    justify-content: center;
 }
 
 
@@ -802,6 +855,63 @@ ins {
 article {
     color: #000;
 }
+
+.related.products .products li {
+    text-align: center;
+    padding: 10px !important;
+    -webkit-box-shadow: 0 0 0 0 rgba(122, 131, 138, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 0 0 0 rgba(122, 131, 138, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 0 0 rgba(122, 131, 138, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.related.products .products li .woocommerce-loop-product__title {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+}
+
+.woocommerce ul.products li.product .button {
+    background: #df342f;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.woocommerce-billing-fields__field-wrapper, .woocommerce-additional-fields__field-wrapper{
+    background: #f7f6f7;
+    padding: 10px
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    max-width: 48%;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, .woocommerce form .form-row select {
+    padding: 10px;
+}
+
+.form-row-wide label, .form-row-wide .woocommerce-input-wrapper, .woocommerce-input-wrapper {
+    width: 100%;
+}
+
+
+.woocommerce form .form-row textarea {
+    height: 200px;
+}
+
+.woocommerce-checkout .form-row {
+    display: block;
+}
+
+.wc_payment_method label {
+    width: 100%;
+}
+
+.wc_payment_method label img{
+    float: right;
+}
+
+
 
 
 /*--------------------------------------------------------------
@@ -834,6 +944,10 @@ main .product {
     }
 
     .hero-content-container .hero-img img {
+        display: none;
+    }
+
+    .hero-content-container .hero-content_image:nth-child(1), .hero-content-container .hero-content_image:nth-child(3){
         display: none;
     }
 
@@ -899,7 +1013,7 @@ main .product {
     }
 
     .subscription-card {
-        padding: 15px;
+        padding: 60px;
         bottom: -146px;
 
     }
@@ -920,6 +1034,43 @@ main .product {
         padding: 0;
     }
 
+    .form-info-element {
+        border: none;
+    }
+
+    .track_days_section .sub-hero img {
+        display: none;
+    }
+
+    .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+        max-width: 100%;
+    }
+
+    .subscription-card {
+        justify-content: center;
+    }
+
+    .subscription-text {
+
+        max-width: 100%;
+    }
+
+    .hero-content_image img {
+        max-width: 370px;
+    }
+
+    .subscription-form button{
+        margin: 10px auto;
+        height: 65px;
+    }
+
+    .subscription-card .subscription-form{
+        flex-flow: wrap;
+    }
+
+    .subscription-text {
+        max-width: 100%;
+    }
 
 }
 
@@ -939,6 +1090,10 @@ main .product {
         float: right;
     }
 
+    .track_days_section .sub-hero img {
+        display: none;
+    }
+
     .service-cars img{
         max-width: 45%;
     }
@@ -948,6 +1103,42 @@ main .product {
         padding: 42px 0;
     }
 
+    .hero-content-container .hero-content_image:nth-child(1), .hero-content-container .hero-content_image:nth-child(3){
+        display: none;
+    }
+    .form-info-element {
+        border: none;
+    }
+
+    .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .main-navigation ul {
+        flex-flow: wrap;
+    }
+
+    header ul li {
+        margin: 7px;
+    }
+
+    .subscription-form button{
+        margin: 10px auto;
+        height: 65px;
+    }
+
+    .subscription-card .subscription-form{
+        flex-flow: wrap;
+    }
+
+    .subscription-text {
+        max-width: 100%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -955,6 +1146,10 @@ main .product {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .site-branding a {
+        margin: 0;
+
+    }
 
 }
 

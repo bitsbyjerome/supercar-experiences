@@ -127,6 +127,8 @@ function supercar_experiences_content_width() {
 }
 add_action( 'after_setup_theme', 'supercar_experiences_content_width', 0 );
 
+
+
 /**
  * Register widget area.
  *
@@ -192,4 +194,44 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+
+function add_classes_to_page_templates($classes) {
+
+     $classes[] = get_page_template_slug();
+      //echo var_dump(get_page_template_slug());
+
+    return $classes;
+}
+//add_filter('body_class', 'add_classes_to_page_templates');
+
+/**
+ * *************
+ *
+ * WOOCOMMERCE
+ *
+ * **************
+ */
+
+//add_filter('woocommer')
+
+add_theme_support( 'wc-product-gallery-zoom' );
+add_theme_support( 'wc-product-gallery-lightbox' );
+add_theme_support( 'wc-product-gallery-slider' );
+
+function my_product_block( $html, $data, $product ) {
+    $html = '<li class="wc-block-grid__product">
+        <div class="image-wrap">
+            <a href="' . $data->permalink . '" class="wc-block-grid__product-link">' . $data->image . '</a>
+            ' . $data->button . '
+        </div>
+        <h3><a href="' . $data->permalink . '">' . $data->title . '</a></h3>
+        ' . $data->badge . '
+        ' . $data->price . '
+        ' . $data->rating . '
+    </li>';
+    return $html;
+}
+
+//add_filter( 'woocommerce_blocks_product_grid_item_html', 'my_product_block', 10, 3);
 

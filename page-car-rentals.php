@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name : Track Days
+ * Template Name : Car Rentals
  */
 
 ?>
@@ -13,28 +13,34 @@ get_header('general');
 
         <div class="track_days_section">
 
-            <div class="container">
+            <div class="sub-hero">
 
-                <div class="row sub-hero">
+                <div class="container">
 
-                    <div class="col-lg-6">
-                        <div class="section-title">
-                            Car <span class="red">Rentals</span>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="section-title">
+                                Car <span class="red">Rentals</span>
+                            </div>
+                            <p>
+                                If you are looking for a luxury or exotic car for rental, then Supercar Experiences can be the ideal destination. We make available a range of supercars manufactured by top of the line brands like Ferrari, Lamborghini, and McLaren, Porsche, Audi and more. You can pick any of your favourite supercar from our selection of luxury cars. With us, you get a chance to Vroom past others on race tracks and on scenic roads, with your hands on the steering wheel of luxury supercars from prestigious brands.
+                            </p>
+                            <p>
+                                Driving a supercar can be a dream for many. At our company, we aim to fulfill this dream and ensure that you get to ride these speed demons and attention grabbers. The affordable rental ensures that cost isn’t a barrier to a superlative experience. We provide a zero-hassle experience when you choose us to drive these exotic cars. You can conveniently book your choice of exotic or luxury cars in no time, choose from our vast range of sports cars.
+                            </p>
+
                         </div>
-                        <p>
-                            If you are looking for a luxury or exotic car for rental, then Supercar Experiences can be the ideal destination. We make available a range of supercars manufactured by top of the line brands like Ferrari, Lamborghini, and McLaren, Porsche, Audi and more. You can pick any of your favourite supercar from our selection of luxury cars. With us, you get a chance to Vroom past others on race tracks and on scenic roads, with your hands on the steering wheel of luxury supercars from prestigious brands.
-                        </p>
-                        <p>
-                            Driving a supercar can be a dream for many. At our company, we aim to fulfill this dream and ensure that you get to ride these speed demons and attention grabbers. The affordable rental ensures that cost isn’t a barrier to a superlative experience. We provide a zero-hassle experience when you choose us to drive these exotic cars. You can conveniently book your choice of exotic or luxury cars in no time, choose from our vast range of sports cars.
-                        </p>
 
-                    </div>
-
-                    <div class="col-lg-6">
-                        <img src="<?= get_template_directory_uri().'/assets/images/mercedes_full.png'; ?>">
+                        <div class="col-lg-6">
+                            <img src="<?= get_template_directory_uri().'/assets/images/mercedes_full.png'; ?>">
+                        </div>
                     </div>
 
                 </div>
+
+            </div>
+
+            <div class="container">
 
                 <div class="auto_section">
 
@@ -71,7 +77,7 @@ get_header('general');
                         <div class="row">
 
                             <div class="col-lg-6">
-                                <img src="<?= get_template_directory_uri().'/assets/images/auto-section-img.png'; ?>">
+                                <img src="<?= get_template_directory_uri().'/assets/images/porsche_background.png'; ?>">
                             </div>
 
                             <div class="col-lg-6">

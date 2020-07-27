@@ -44,8 +44,8 @@
                     <p class="site-description"><?php echo $supercar_experiences_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
                 <?php endif; ?>
                 <ul class="top-header-info">
-                    <li> <img src="<?= get_template_directory_uri().'/assets/logos/call.png';?>"> 416-900-1102</li>
-                    <li> <img src="<?= get_template_directory_uri().'/assets/logos/email.png';?>"> info@supercarexperiences.ca</li>
+                    <li> <img src="<?= get_template_directory_uri().'/assets/logos/call.png';?>"> <a href="tel:416-900-1102">416-900-1102</a></li>
+                    <li> <img src="<?= get_template_directory_uri().'/assets/logos/email.png';?>"> <a href="mailto:info@supercarexperiences.ca">info@supercarexperiences.ca</a> </li>
                 </ul>
             </div><!-- .site-branding -->
 

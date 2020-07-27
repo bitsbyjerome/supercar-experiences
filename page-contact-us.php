@@ -47,11 +47,12 @@ get_header('general');
                         </div>
                     </div>
 
-                <div class="contact-form-info">
+            </div>
 
+            <div class="contact-form-info">
+
+                <div class="container">
                     <div class="row">
-
-
 
                         <div class="form-info-element">
                             <img src="">
@@ -91,7 +92,6 @@ get_header('general');
                         </div>
 
                     </div>
-
                 </div>
 
             </div>
