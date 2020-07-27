@@ -159,7 +159,7 @@ get_header('home');
             <div class="about-us_content_wrapper">
                 <div><span class="thick">Want to know</span> <span class="bold">more about us?</span> </div>
                 <div><span class="bold">Play our video</span> <span class="thick">Now!</span></div>
-                <div class="btn-play"> <img src="<?= get_template_directory_uri().'/assets/logos/btn-play.png'; ?>"> </div>
+                <div class="btn-play" data-target="#youtube-video-modal" data-toggle="modal" data-src="https://www.youtube.com/embed/-j7hDyNzKrA"> <img src="<?= get_template_directory_uri().'/assets/logos/btn-play.png'; ?>"> </div>
                 <div class="container">
                     <div id="player"></div>
                 </div>

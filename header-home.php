@@ -75,12 +75,36 @@
                         <p class="caption-red">Toronto's top exotic</p>
                         <p class="caption-main">car rental company</p>
                         <p class="caption-light">super car experiences</p>
-                            <a href="#services-section"><button class="btn hero-btn btn-primary">Watch video</button></a>
+                            <button data-toggle="modal" data-src="https://www.youtube.com/embed/-j7hDyNzKrA"
+                                    class="btn hero-btn btn-primary" data-target="#youtube-video-modal">Watch video</button>
                     </div>
                     <div class="hero-img col-lg-6">
                         <img src="<?= get_template_directory_uri().'/assets/images/hero.png'; ?>">
                     </div>
                 </div>
+
+                <div class="modal fade" id="youtube-video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+
+
+                            <div class="modal-body">
+
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <!-- 16:9 aspect ratio -->
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-j7hDyNzKrA" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 

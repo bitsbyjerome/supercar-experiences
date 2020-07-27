@@ -114,7 +114,7 @@ header ul li {
     text-transform: uppercase;
 }
 
-.main-navigation .nav-menu .current-menu-item a{
+.main-navigation :not(.sub-menu) .current-menu-item > a {
     color: #db2d2e;
 }
 
@@ -210,6 +210,29 @@ header ul li {
 .caption-light{
     font-size: 35px;
     font-weight: 100;
+}
+
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
 }
 
 /*--------------------------------------------------------------
@@ -973,6 +996,21 @@ main .product {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+    .main-navigation {
+        width: auto;
+    }
+
+    .menu-toggle, .main-navigation.toggled ul {
+        text-align: left;
+    }
+
+    .sub-menu {
+        border-left: 1px solid;
+        background: #1f1f1f;
+    }
+
+
     .site-branding {
         justify-content: center;
         margin-bottom: 0;
