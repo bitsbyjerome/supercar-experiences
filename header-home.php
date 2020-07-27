@@ -14,7 +14,7 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
     <?php wp_head(); ?>
@@ -75,11 +75,7 @@
                         <p class="caption-red">Toronto's top exotic</p>
                         <p class="caption-main">car rental company</p>
                         <p class="caption-light">super car experiences</p>
-
-                        <button class="btn hero-btn btn-primary">
-                            Read more
-                        </button>
-
+                            <a href="#services-section"><button class="btn hero-btn btn-primary">Watch video</button></a>
                     </div>
                     <div class="hero-img col-lg-6">
                         <img src="<?= get_template_directory_uri().'/assets/images/hero.png'; ?>">

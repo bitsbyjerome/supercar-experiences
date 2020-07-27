@@ -4,6 +4,7 @@
 .red {
     color: #db2d2e;
 }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -12,7 +13,7 @@
     src: url('assets/fonts/AddSpeedy.ttf');
 }
 html{
-    sroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 .hero-btn {
     margin-top: 20px;
@@ -25,6 +26,20 @@ html{
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+}
+
+.hero-btn a {
+    color: #ffffff;
+}
+
+.hero-btn:hover {
+    background: none;
+    border: 1px solid #ffffff;
+}
+
+.hero-btn a:hover, .hero-btn a:focus, .hero-btn a:active {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .btn-play img {
@@ -99,12 +114,22 @@ header ul li {
     text-transform: uppercase;
 }
 
-.main-navigation .current_page_item a{
+.main-navigation .nav-menu .current-menu-item a{
     color: #db2d2e;
 }
 
+
 .main-navigation a:hover, .main-navigation a:active, .main-navigation a:focus{
     color: #db2d2e;
+}
+
+.sub-menu {
+    display: block!important;
+    margin: 10px 0;
+}
+
+.sub-menu li {
+    margin: 10px 0;
 }
 
 /*--------------------------------------------------------------
@@ -244,6 +269,15 @@ header ul li {
 
 .service-logo {
     text-align: center;
+}
+
+.service-logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.service-logo a:hover {
+    color: #db2d2e;
 }
 
 .service-title {
@@ -592,10 +626,10 @@ footer .menu li {
 --------------------------------------------------------------*/
 .usp_section {
     background-image: url("assets/images/usp-section-background.png");
-    -webkit-background-size: cover;
-    background-size: cover;
-    height: 637px;
-    padding: 150px;
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+    /*height: 637px;*/
+    padding: 139px 0 0;
 }
 
 .usp_section .container {
@@ -641,8 +675,8 @@ footer .menu li {
     background-image: url("assets/images/experiences-background.png");
     -webkit-background-size: cover;
     background-size: cover;
-    height: 637px;
-    padding: 150px;
+    /*height: 637px;*/
+    padding: 150px 0;
 }
 
 .experience_element {
@@ -650,6 +684,7 @@ footer .menu li {
     color: #000;
     text-align: center;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .experience_element div {
@@ -1013,7 +1048,7 @@ main .product {
     }
 
     .subscription-card {
-        padding: 60px;
+        padding: 20px;
         bottom: -146px;
 
     }
@@ -1056,7 +1091,7 @@ main .product {
     }
 
     .hero-content_image img {
-        max-width: 370px;
+        max-width: 330px;
     }
 
     .subscription-form button{
@@ -1070,6 +1105,23 @@ main .product {
 
     .subscription-text {
         max-width: 100%;
+    }
+
+    .track_days_section .auto_section:nth-child(1) {
+        margin-right: 0;
+
+    }
+
+    .track_days_section .auto_section:nth-child(2) {
+        margin-left: 0;
+
+    }
+
+    .auto_section .section_content {
+         padding: 20px;
+    }
+    .usp_section {
+        background-color: #020202;
     }
 
 }
@@ -1115,6 +1167,8 @@ main .product {
         max-width: 100%;
     }
 
+
+
 }
 
 
@@ -1138,6 +1192,16 @@ main .product {
 
     .subscription-text {
         max-width: 100%;
+    }
+
+    .track_days_section .auto_section:nth-child(1) {
+        margin-right: 0;
+
+    }
+
+    .track_days_section .auto_section:nth-child(2) {
+        margin-left: 0;
+
     }
 }
 

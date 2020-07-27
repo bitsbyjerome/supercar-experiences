@@ -38,7 +38,7 @@ get_header('home');
 
             </div>
 
-            <div class="services-section">
+            <div class="services-section" id="services-section">
                 <div class="container">
 
                     <div class="section-wrapper">
@@ -60,46 +60,54 @@ get_header('home');
 
                                 <div class="col-lg-3">
                                     <div class="service-logo">
-                                        <img src="<?= get_template_directory_uri().'/assets/logos/service-car.png'; ?>">
-                                        <div class="service-title">Car Rentals</div>
-                                        <div class="separator"></div>
-                                        <div class="service-description">
-                                            If you are looking for a luxury or exotic car for rental, then Supercar Experiences can be the ideal destination
-                                        </div>
+                                        <a href="/super_car_experience/supercar-experiences/car-rentals">
+                                            <img src="<?= get_template_directory_uri().'/assets/logos/service-car.png'; ?>">
+                                            <div class="service-title">Car Rentals</div>
+                                            <div class="separator"></div>
+                                            <div class="service-description">
+                                                If you are looking for a luxury or exotic car for rental, then Supercar Experiences can be the ideal destination
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="service-logo">
-                                        <img src="<?= get_template_directory_uri().'/assets/logos/track-days.png'; ?>">
-                                        <div class="service-title">Track Days</div>
-                                        <div class="separator"></div>
-                                        <div class="service-description">
-                                            Track Days are the most exhilarating and heart pumping experience we offer. Our customers...
-                                        </div>
+                                        <a href="/super_car_experience/supercar-experiences/track-days">
+                                            <img src="<?= get_template_directory_uri().'/assets/logos/track-days.png'; ?>">
+                                            <div class="service-title">Track Days</div>
+                                            <div class="separator"></div>
+                                            <div class="service-description">
+                                                Track Days are the most exhilarating and heart pumping experience we offer. Our customers...
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="service-logo">
-                                        <img src="<?= get_template_directory_uri().'/assets/logos/driving-tours.png'; ?>">
-                                        <div class="service-title">Driving Tours</div>
-                                        <div class="separator"></div>
-                                        <div class="service-description">
-                                            Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length
-                                        </div>
+                                        <a href="/super_car_experience/supercar-experiences/driving-tours">
+                                            <img src="<?= get_template_directory_uri().'/assets/logos/driving-tours.png'; ?>">
+                                            <div class="service-title">Driving Tours</div>
+                                            <div class="separator"></div>
+                                            <div class="service-description">
+                                                Driving Tours are by far the best value for our customers. They differ in the amount of vehicles driven and length
+                                            </div>
+                                        </a>
                                     </div>
 
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="service-logo">
-                                        <img src="<?= get_template_directory_uri().'/assets/logos/test-drives.png'; ?>">
-                                        <div class="service-title">Test Drives</div>
-                                        <div class="separator"></div>
-                                        <div class="service-description">
-                                            Test Drives are ​ $159.00 for 20min or ​ $179.00 for 30min ​regardless of vehicle. “people’s dream cars differ from one another”.
-                                        </div>
+                                        <a href="/super_car_experience/supercar-experiences/test-drives">
+                                            <img src="<?= get_template_directory_uri().'/assets/logos/test-drives.png'; ?>">
+                                            <div class="service-title">Test Drives</div>
+                                            <div class="separator"></div>
+                                            <div class="service-description">
+                                                Test Drives are ​ $159.00 for 20min or ​ $179.00 for 30min ​regardless of vehicle. “people’s dream cars differ from one another”.
+                                            </div>
+                                        </a>
                                     </div>
 
                                 </div>
@@ -152,7 +160,9 @@ get_header('home');
                 <div><span class="thick">Want to know</span> <span class="bold">more about us?</span> </div>
                 <div><span class="bold">Play our video</span> <span class="thick">Now!</span></div>
                 <div class="btn-play"> <img src="<?= get_template_directory_uri().'/assets/logos/btn-play.png'; ?>"> </div>
-                <div id="player"></div>
+                <div class="container">
+                    <div id="player"></div>
+                </div>
                 <div class="contact-info">
                     <div class="contact-info_title">Have any questions</div>
                     <div class="contact-info_number red"> 416-900-1102</div>
@@ -196,7 +206,6 @@ get_header('home');
 //get_sidebar();
 get_footer();
 
-//TODO: fix video width on desktop
 //TODO: fix subscription form
 //TODO: fix menu length responsive
 //TODO: fix checkout page

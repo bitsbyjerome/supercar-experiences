@@ -99,7 +99,7 @@ get_header('general');
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
 
                     <div class="experience_element">
                         <a href="/super_car_experience/supercar-experiences/driving-tours">
@@ -118,7 +118,7 @@ get_header('general');
 
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
 
                     <div class="experience_element">
                         <a href="/super_car_experience/supercar-experiences/track-days">
@@ -137,7 +137,7 @@ get_header('general');
 
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
 
                     <div class="experience_element">
                         <a href="/super_car_experience/supercar-experiences/test-drives">
@@ -156,7 +156,7 @@ get_header('general');
 
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
 
                     <div class="experience_element">
                         <a href="/super_car_experience/supercar-experiences/laps">
